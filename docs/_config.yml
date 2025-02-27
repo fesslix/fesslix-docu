@@ -37,6 +37,7 @@ html:
 
 sphinx:
   config:
+    project: "Fesslix – Stochastic Analysis"
     todo_include_todos: true  # This enables TODOs to appear in the output
     html_favicon: "favicon.png"
     intersphinx_mapping:
