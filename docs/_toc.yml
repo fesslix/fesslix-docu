@@ -4,10 +4,15 @@
 format: jb-book
 root: intro
 parts:
+- caption: Getting started
+  chapters:
+  - file: installation
+- caption: Configuration
+  chapters:
+  - file: logging
 - caption: Basic examples 🪄
   chapters:
   - file: markdown
-  - file: logging
   - file: notebooks
   - file: markdown-notebooks
 - caption: Cool extensions 🕶️

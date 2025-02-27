@@ -23,10 +23,76 @@ serve a similar purpose, but **roles are written in one line**, whereas
 and what they do with those inputs depends on the specific role or directive
 that is being called.
 
+https://myst-parser.readthedocs.io/en/latest/
+
 Here is a "note" directive:
 
 ```{note}
 Here is a note
+```
+
+```{todo}
+Here is a todo
+```
+
+```{warning}
+Here is a warning
+```
+
+```{attention}
+Here is an attention
+```
+
+```{caution}
+Here is an caution
+```
+
+```{error}
+Here is an error
+```
+
+```{tip}
+Here is a tip
+```
+
+```{hint}
+Here is a hint
+```
+
+```{important}
+Here is a hiimportantnt
+```
+
+:::{admonition} Some title
+:class: tip
+Here is a admonition with a user-specific title.
+:::
+
+```{danger}
+Here is a danger
+```
+
+```{seealso}
+Here is a seealso
+```
+
+```python
+from a import b
+c = "string"
+```
+
+```{code-block} python
+:caption: This is a caption
+:emphasize-lines: 2,3
+:lineno-start: 1
+
+a = 1
+b = 2
+c = 3
+```
+
+```bash
+pip install package-name
 ```
 
 It will be rendered in a special box when you build your book.

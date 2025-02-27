@@ -17,6 +17,11 @@ Build the Spyhinx config-file:
 jupyter-book config sphinx docs/
 ```
 
+When updating css-sytling, a cleanup can help:
+```
+jupyter-book build docs/
+```
+
 Run Jupyter Book:
 ```
 jupyter-book build docs/

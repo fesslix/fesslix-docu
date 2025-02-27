@@ -1,5 +1,10 @@
 (intro)=
 
+```{todo}
+This book is still written and currently an early draft.
+```
+
+
 # Jupyter Book on Read the Docs
 
 This example shows a Jupyter Book project built and published on Read the Docs.

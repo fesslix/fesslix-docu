@@ -5,6 +5,7 @@
 title: Fesslix
 author: Wolfgang Betz
 logo: logo.png
+copyright: "2025"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -34,9 +35,12 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  theme:
+    custom_css: _static/custom.css  # Specify a custom CSS file (optional but recommended for more control)
 
 sphinx:
   config:
+    todo_include_todos: true  # This enables TODOs to appear in the output
     intersphinx_mapping:
       ebp:
         - "https://executablebooks.org/en/latest/"
@@ -70,9 +74,11 @@ sphinx:
           "emat": ["\\end{array}\\right]"]
         
   extra_extensions:
+    - sphinx.ext.todo
     - sphinx.ext.intersphinx
     - sphinx_inline_tabs
     - sphinx_proof
     - sphinx_examples
     - hoverxref.extension
 
+    
