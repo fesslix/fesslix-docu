@@ -33,6 +33,7 @@ html:
   use_repository_button: true
 
 sphinx:
+  configuration: docs/conf.py  # Path to Sphinx configuration file
   config:
     intersphinx_mapping:
       ebp:
