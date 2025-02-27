@@ -11,6 +11,9 @@ logo: logo.png
 execute:
   execute_notebooks: force
 
+html:
+  favicon: "favicon.png"
+  
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
