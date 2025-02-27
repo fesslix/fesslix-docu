@@ -7,7 +7,7 @@ with open(conf_file, 'r') as file:
 # Define the new content to append
 latex_documents = """
 latex_documents = [
-    ('intro', 'fesslix.tex', 'My Project Name Documentation', 'Your Name or Organization', 'manual'),
+    ('intro', 'fesslix.tex', 'Fesslix – Stochastic Analysis', 'Dr.-Ing. Wolfgang Betz', 'manual'),
 ]
 """
 
