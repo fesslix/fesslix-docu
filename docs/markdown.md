@@ -44,7 +44,7 @@ Here is an attention
 ```
 
 ```{caution}
-Here is an caution
+Here is a caution
 ```
 
 ```{error}
@@ -60,7 +60,7 @@ Here is a hint
 ```
 
 ```{important}
-Here is a hiimportantnt
+Here is a important
 ```
 
 :::{admonition} Some title
