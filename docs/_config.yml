@@ -16,6 +16,7 @@ execute:
 latex:
   latex_documents:
     targetname: fesslix.tex
+    title: "Fesslix – Stochastic Analysis"
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
@@ -72,7 +73,6 @@ sphinx:
           "bmat": ["\\left[\\begin{array}"]
           "emat": ["\\end{array}\\right]"]
     latex_logo: "logo.png"
-#latex_documents: ['intro', 'fesslix.tex', "My Project Name Documentation", "Your Name or Organization", 'manual']
         
   extra_extensions:
     - sphinx.ext.todo
