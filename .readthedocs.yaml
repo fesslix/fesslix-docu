@@ -22,8 +22,4 @@ python:
 formats:
   - pdf
   - epub
-  
-# Enable Jupyter Notebook execution if needed
-jupyter:
-  execute_notebooks: auto  # Options: "auto", "force", "off"
 
