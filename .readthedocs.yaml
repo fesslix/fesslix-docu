@@ -10,7 +10,7 @@ build:
       - "jupyter-book clean docs/"
       # Generate on-the-fly Sphinx configuration from Jupyter Book's _config.yml
       - "jupyter-book config sphinx docs/"
-      - "python modify_conf.py"
+      #- "python modify_conf.py"
       # Replace .venv-fesslix kernel with python3 for RTD
       - "find docs/ -name '*.ipynb' -exec sed -i 's/\".venv-fesslix\"/\"python3\"/g' {} +"
       
