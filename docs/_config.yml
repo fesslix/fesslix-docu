@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 # Comprehensive example: https://github.com/executablebooks/jupyter-book/blob/master/docs/_config.yml
 
-title: "Fesslix"
+title: Fesslix – Stochastic Analysis
 author: Wolfgang Betz
 logo: logo.png
 copyright: "2025"
@@ -71,6 +71,8 @@ sphinx:
           "floor": ["\\lfloor#1\\rfloor", 1]
           "bmat": ["\\left[\\begin{array}"]
           "emat": ["\\end{array}\\right]"]
+    latex_logo: "logo.png"
+#latex_documents: ['intro', 'fesslix.tex', "My Project Name Documentation", "Your Name or Organization", 'manual']
         
   extra_extensions:
     - sphinx.ext.todo
