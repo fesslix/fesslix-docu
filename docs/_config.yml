@@ -11,9 +11,6 @@ copyright: "2025"
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
-
-html:
-  favicon: "favicon.png"
   
 # Define the name of the latex output file for PDF builds
 latex:
@@ -41,6 +38,7 @@ html:
 sphinx:
   config:
     todo_include_todos: true  # This enables TODOs to appear in the output
+    html_favicon: "favicon.png"
     intersphinx_mapping:
       ebp:
         - "https://executablebooks.org/en/latest/"
