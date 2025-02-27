@@ -9,7 +9,10 @@ build:
     pre_build:
       # Generate on-the-fly Sphinx configuration from Jupyter Book's _config.yml
       - "jupyter-book config sphinx docs/"
-
+      
+sphinx:
+  configuration: docs/conf.py  # Path to Sphinx configuration file
+  
 python:
    install:
    - requirements: docs/requirements.txt
