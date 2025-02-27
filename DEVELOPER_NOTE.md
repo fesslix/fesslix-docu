@@ -10,7 +10,11 @@ https://github.com/readthedocs-examples/example-jupyter-book
 Install required Python dependencies (Sphinx etc.):
 ```
 pip install -r docs/requirements.txt
+```
 
+Build the Spyhinx config-file:
+```
+jupyter-book config sphinx docs/
 ```
 
 Run Jupyter Book:
