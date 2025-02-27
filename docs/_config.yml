@@ -14,6 +14,7 @@ execute:
   
 # Define the name of the latex output file for PDF builds
 latex:
+  use_jupyterbook_latex: false
   latex_documents:
     targetname: fesslix.tex
     title: "Fesslix – Stochastic Analysis"
