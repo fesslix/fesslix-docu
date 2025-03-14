@@ -6,15 +6,22 @@ root: intro
 parts:
 - caption: Getting started
   chapters:
-  - file: installation
+  - file: start_installation
+  - file: start_intro
+- caption: Basics of Fesslix
+  chapters:
+  - file: basics_intro
 - caption: Configuration
   chapters:
-  - file: logging
-- caption: Basic examples 🪄
+  - file: config_logging
+  - file: config_options
+  - file: config_output
+- caption: From the template (TODO) 🪄
   chapters:
   - file: markdown
   - file: notebooks
   - file: markdown-notebooks
+  - file: template_syntax
 - caption: Cool extensions 🕶️
   chapters:
   - file: intersphinx

@@ -81,6 +81,7 @@ sphinx:
     - sphinx_inline_tabs
     - sphinx_proof
     - sphinx_examples
+    - sphinx_rtd_theme
     - hoverxref.extension
     
     
