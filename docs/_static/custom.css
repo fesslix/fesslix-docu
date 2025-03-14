@@ -75,3 +75,21 @@ div.highlight-bash::before {
   color: rgb(93, 93, 93);  /* Change text color */
   z-index: 1;  /* Ensure it's on top of the code block */
 }
+
+div.highlight-yaml {
+  position: relative;
+}
+div.highlight-yaml .highlight pre  {
+  padding-top: 30px;
+}
+div.highlight-yaml::before {
+  content: "yaml";  /* The label text */
+  position: absolute;
+  top: 5px;  /* Adjust the vertical position */
+  left: 17px;  /* Adjust the horizontal position */
+  font-size: 12px;
+  font-family: ui-sans-serif, sans-serif;
+  color: rgb(93, 93, 93);  /* Change text color */
+  z-index: 1;  /* Ensure it's on top of the code block */
+}
+
