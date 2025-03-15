@@ -30,7 +30,15 @@ code-executing
         If command begins with a '~' then the tilda is removed and the rest 
         of the command is executed without enclosing it in {}. This allows 
         one to create a  func or proc dynamically. 
-
+        
+    :param statement: The command to be parsed and executed.
+    :type statement: str
+    :param objref: (Optional) The object in whose context the command should be executed.
+    :type objref: object or None
+    :returns: appropriate release object
+    :return: The result of executing the command.
+    :rtype: str or None
+   
     .. seealso::
         :func:`execute1`
 ```
