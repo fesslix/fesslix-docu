@@ -1,5 +1,0 @@
-MT19937:
-    init:
-        calls: 2000
-        seed: True
-        seedvalue: 12345
