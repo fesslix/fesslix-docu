@@ -44,9 +44,9 @@ firefox docs/_build/html/index.html
 
 ### Initial preparations
 
-Also make sure the required packages are installed:
+Also make sure the required packages are installed (sytem-wide):
 ```
-pip install jupyterlab ipykernel
+jupyterlab ipykernel ipympl
 ```
 
 Once Jupyter is installed, register your environment as a kernel:

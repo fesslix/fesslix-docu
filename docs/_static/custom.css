@@ -93,3 +93,19 @@ div.highlight-yaml::before {
   z-index: 1;  /* Ensure it's on top of the code block */
 }
 
+div.highlight-bat {
+  position: relative;
+}
+div.highlight-bat .highlight pre  {
+  padding-top: 30px;
+}
+div.highlight-bat::before {
+  content: "Windows Command Prompt";  /* The label text */
+  position: absolute;
+  top: 5px;  /* Adjust the vertical position */
+  left: 17px;  /* Adjust the horizontal position */
+  font-size: 12px;
+  font-family: ui-sans-serif, sans-serif;
+  color: rgb(93, 93, 93);  /* Change text color */
+  z-index: 1;  /* Ensure it's on top of the code block */
+}

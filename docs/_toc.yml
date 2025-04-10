@@ -11,19 +11,39 @@ parts:
 - caption: Basics of Fesslix
   chapters:
   - file: basics_intro
+  - file: basics_functions
+  - file: basics_random_variables
+    sections:
+      - file: rv/stdn
+      - file: rv/normal
+      - file: rv/logn
+      - file: rv/uniform
+      - file: rv/beta
+      - file: rv/studentst
+      - file: rv/studentstgen
+      - file: rv/logt
+  - file: basics_rv_sets
+  - file: basics_data_types
+- caption: Advanced Usage
+  chapters:
+  - file: advanced_intro
+  - file: advanced_FlxFunction
 - caption: Configuration
   chapters:
   - file: config_logging
   - file: config_options
   - file: config_output
-- caption: From the template (TODO) 🪄
+- caption: Modules
+  chapters:
+  - file: modules/plot
+- caption: Application examples
+  chapters:
+  - file: application/appl_concrete_fc
+- caption: TODO » docu help
   chapters:
   - file: markdown
   - file: notebooks
   - file: markdown-notebooks
-  - file: template_syntax
-- caption: Cool extensions 🕶️
-  chapters:
   - file: intersphinx
   - file: sphinx-examples
   - file: sphinx-hoverxref

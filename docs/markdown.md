@@ -14,6 +14,12 @@ in the Sphinx ecosystem.
 
 For more about MyST, see [the MyST Markdown Overview](https://jupyterbook.org/content/myst.html).
 
+[cross referencing in MyST](https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#reference-roles)
+
+## Source code
+
+(https://www.sphinx-doc.org/en/master/usage/domains/python.html#info-field-lists)
+
 ## Sample Roles and Directives
 
 Roles and directives are two of the most powerful tools in Jupyter Book. They

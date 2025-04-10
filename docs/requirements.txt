@@ -1,5 +1,6 @@
 jupyter-book
 matplotlib
+ipympl
 numpy
 sphinx-inline-tabs
 sphinx-examples

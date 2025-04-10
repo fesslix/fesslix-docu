@@ -66,6 +66,16 @@ sphinx:
         - null
     hoverxref_intersphinx:
      - "sphinxproof"
+    intersphinx_mapping:
+      python:
+        - "https://docs.python.org/3"
+        - null
+      numpy:
+        - "https://numpy.org/doc/stable/"
+        - null
+      matplotlib:
+        - "https://matplotlib.org/stable/"
+        - null
     mathjax3_config:
       tex:
         macros:
@@ -76,11 +86,20 @@ sphinx:
     latex_logo: "logo.png"
         
   extra_extensions:
-    - sphinx.ext.todo
+    - sphinx.ext.autodoc
     - sphinx.ext.intersphinx
+    - sphinx.ext.todo
+    #- sphinx_toolbox
+    #- sphinx_paramlinks
     - sphinx_inline_tabs
     - sphinx_proof
     - sphinx_examples
     - hoverxref.extension
-    
+
+parse:
+  myst_enable_extensions:
+    - deflist
+    - colon_fence
+    - dollarmath
+        
     

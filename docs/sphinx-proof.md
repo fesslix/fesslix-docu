@@ -23,3 +23,4 @@ Let $z$ be any other point in $S$ and use the fact that $S$ is a linear subspace
 Hence $\| y - z \| \geq \| y - \hat y \|$, which completes the proof.
 ````
 
+[sphinxproof:syntax]: https://sphinx-proof.readthedocs.io/en/latest/index.html "documentation of sphinx-proof"
