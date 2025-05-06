@@ -1,5 +1,8 @@
 /docs/conf.py
 /docs/_build
+/docs/mcs_samples.dat
+/docs/mcs_samples.bin
+/docs/modules/modified_text.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -22,20 +22,25 @@ parts:
       - file: rv/studentst
       - file: rv/studentstgen
       - file: rv/logt
+      - file: rv/genpareto
+      - file: rv/quantiles
   - file: basics_rv_sets
-  - file: basics_data_types
+  - file: basics_data
+  - file: basics_MCS
 - caption: Advanced Usage
   chapters:
-  - file: advanced_intro
   - file: advanced_FlxFunction
+  - file: advanced_FlxCode
+  - file: advanced_vectors
 - caption: Configuration
   chapters:
   - file: config_logging
   - file: config_options
-  - file: config_output
 - caption: Modules
   chapters:
+  - file: modules/tools
   - file: modules/plot
+  - file: modules/model_templates
 - caption: Application examples
   chapters:
   - file: application/appl_concrete_fc

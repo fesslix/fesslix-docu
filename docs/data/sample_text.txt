@@ -1,0 +1,9 @@
+@{var2} » This is an example text file @{var1}. 
+
+The content is to be modified by »fesslix.tools.replace_in_template«.
+
+Value of random variable: @{!rv_set_a::rv1}
+
+
+
+

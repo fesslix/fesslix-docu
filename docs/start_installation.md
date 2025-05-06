@@ -2,10 +2,12 @@
 
 The recommended method of installation for most users is via `pip`.
 
+(content:start:install:pipvenv)=
 ## Install with pip and venv
 
 In order to install Fesslix using `pip` inside a virtual environment of Python, please follow the steps outlined in the following.
 
+(content:start:install:pipvenv:S1)=
 ### Step 1) Make sure Python is installed
 
 As Fesslix is a Python module, you must have [Python][python] installed.
@@ -40,6 +42,8 @@ brew upgrade python
 :::
 
 ::::
+
+(content:start:install:pipvenv:S2)=
 ### Step 2) Create a virtual environment in Python
 
 ::::{tab-set}
@@ -132,7 +136,7 @@ pip install fesslix
 
 ## Verifying the Installation
 
-After installing NumPy, verify the installation by running the following in a Python shell or script:
+After installing NumPy, verify the installation by running the following commands in a Python shell or script:
 
 ```python
 import fesslix as flx
@@ -170,7 +174,37 @@ pip install --upgrade fesslix
 
 ::::
 
+## Install as a local build
 
+### new installation
+
+Follow {ref}`Step 1<content:start:install:pipvenv:S1>`, {ref}`Step 2<content:start:install:pipvenv:S2>` and {ref}`Step 3<content:start:installation:activate-venv>` in section {ref}`content:start:install:pipvenv`.
+
+Fetch the source code:
+```bash
+git clone https://github.com/fesslix/fesslix.git
+cd fesslix
+```
+
+Trigger the local build:
+```bash
+pip install . -v
+```
+
+### updating an existing installation
+
+To update an existing local build, change into the source directory of Fesslix and execute the following commands:
+```bash
+git pull
+pip install . -v
+```
+
+### compile in debug mode
+
+```bash
+git pull
+pip install . -v --config-settings=cmake.build-type="Debug" --config-settings=cmake.args=-DFLX_DEBUG=ON
+```
 
 [python-download]: https://www.python.org/downloads/windows/ "Python Releases for Windows"
 [python-install]: https://docs.python.org/3/using/windows.html "Using Python on Windows"
