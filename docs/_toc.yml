@@ -38,6 +38,10 @@ parts:
   - file: config_options
 - caption: Modules
   chapters:
+  - file: modules/gpr
+    sections:
+      - file: modules/gpr_example_1d
+      - file: modules/gpr_example_2d
   - file: modules/tools
   - file: modules/plot
   - file: modules/model_templates
