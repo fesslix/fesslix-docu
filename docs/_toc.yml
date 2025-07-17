@@ -19,14 +19,21 @@ parts:
       - file: rv/logn
       - file: rv/uniform
       - file: rv/beta
+      - file: rv/Gumbel
+      - file: rv/exponential
       - file: rv/studentst
       - file: rv/studentstgen
       - file: rv/logt
       - file: rv/genpareto
       - file: rv/quantiles
+      - file: rv/fun
   - file: basics_rv_sets
   - file: basics_data
   - file: basics_MCS
+  - file: basics_reliability_analysis
+    sections:
+      - file: reliability_analysis/Line_Sampling
+      - file: reliability_analysis/FORM
 - caption: Advanced Usage
   chapters:
   - file: advanced_FlxFunction
@@ -42,6 +49,7 @@ parts:
     sections:
       - file: modules/gpr_example_1d
       - file: modules/gpr_example_2d
+      - file: modules/gpr_akmcs
   - file: modules/tools
   - file: modules/plot
   - file: modules/model_templates
