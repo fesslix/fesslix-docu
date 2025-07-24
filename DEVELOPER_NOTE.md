@@ -24,6 +24,7 @@ Build the Spyhinx config-file:
 jupyter-book config sphinx docs/
 ```
 
+
 ### perform the build
 
 Run Jupyter Book:

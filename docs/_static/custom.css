@@ -109,3 +109,7 @@ div.highlight-bat::before {
   color: rgb(93, 93, 93);  /* Change text color */
   z-index: 1;  /* Ensure it's on top of the code block */
 }
+/* Add vertical spacing after each citation block */
+div.citation {
+    margin-bottom: 1em;  /* or use padding-bottom, or increase em */
+}

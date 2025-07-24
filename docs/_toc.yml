@@ -56,13 +56,16 @@ parts:
 - caption: Application examples
   chapters:
   - file: application/appl_concrete_fc
-- caption: TODO » docu help
+- caption: Miscellaneous
   chapters:
-  - file: markdown
-  - file: notebooks
-  - file: markdown-notebooks
-  - file: intersphinx
-  - file: sphinx-examples
-  - file: sphinx-hoverxref
-  - file: sphinx-proof
+  - file: about
+  - file: docu_howto/docu_howto
+    sections:
+      - file: docu_howto/markdown
+      - file: docu_howto/notebooks
+      - file: docu_howto/markdown-notebooks
+      - file: docu_howto/intersphinx
+      - file: docu_howto/sphinx-examples
+      - file: docu_howto/sphinx-hoverxref
+      - file: docu_howto/sphinx-proof
 

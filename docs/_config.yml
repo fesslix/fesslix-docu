@@ -84,6 +84,11 @@ sphinx:
           "bmat": ["\\left[\\begin{array}"]
           "emat": ["\\end{array}\\right]"]
     latex_logo: "logo.png"
+    bibtex_bibfiles:
+      - bibliography_betz.bib
+      - other_references.bib
+    bibtex_default_style: mystyle
+
         
   extra_extensions:
     - sphinx.ext.autodoc
@@ -95,6 +100,10 @@ sphinx:
     - sphinx_proof
     - sphinx_examples
     - hoverxref.extension
+    - sphinxcontrib.bibtex
+  local_extensions:
+    my_bibext: ./my_bibext
+
 
 parse:
   myst_enable_extensions:
