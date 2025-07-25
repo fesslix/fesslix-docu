@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_bibext"
+version = "0.1"
+description = "Custom BibTeX style for Sphinx/Jupyter Book"
+authors = [
+    { name="Wolfgang Betz", email="w.betz@fesslix.org" }
+]
+license = "GPL-3.0-or-later"
+requires-python = ">=3.8"
+
+[project.entry-points."pybtex.style.formatting"]
+mystyle = "my_bibext:MyStyle"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["my_bibext*"]
+
+[tool.setuptools.package-data]
+"my_bibext" = ["*.py"]

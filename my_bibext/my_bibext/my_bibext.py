@@ -53,8 +53,3 @@ class MyStyle(UnsrtStyle):
     #        return FormattedEntry(entry.key, spaced_text, label)
             
 
-pybtex.plugin.register_plugin('pybtex.style.formatting', 'mystyle', MyStyle)
-
-def setup(app):
-    pybtex.plugin.register_plugin('pybtex.style.formatting', 'mystyle', MyStyle)
-    return {'version': '0.1'}

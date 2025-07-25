@@ -101,8 +101,7 @@ sphinx:
     - sphinx_examples
     - hoverxref.extension
     - sphinxcontrib.bibtex
-  local_extensions:
-    my_bibext: ./my_bibext
+    - my_bibext
 
 
 parse:
