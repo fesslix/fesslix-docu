@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flx-sphinx-ext"
+version = "0.1"
+description = "fesslix extension for sphinx-based docu"
+authors = [
+    { name="Wolfgang Betz", email="w.betz@fesslix.org" }
+]
+license = "GPL-3.0-or-later"
+requires-python = ">=3.9"
+dependencies = [
+  "sphinx>=5.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["flx-sphinx-ext*"]

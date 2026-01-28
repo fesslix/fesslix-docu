@@ -11,3 +11,4 @@ sphinx-hoverxref
 sphinxcontrib-bibtex
 fesslix
 ./my_bibext
+./flx-sphinx-ext

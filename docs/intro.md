@@ -35,4 +35,6 @@ Important features of *Fesslix-Legacy* that are currently not exposed in the Pyt
 ```{tableofcontents}
 ```
 
+## Index
 
+<a href="genindex.html">General Index</a>

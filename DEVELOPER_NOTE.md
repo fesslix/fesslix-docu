@@ -35,6 +35,9 @@ To check for missing references during build:
 ```
 jupyter-book build -W -n --keep-going docs/
 ```
+-W: treat warnings as errors
+-n: shows missing references
+
 
 ### View the book
 
@@ -69,5 +72,10 @@ python -m ipykernel install --user --name=.venv-fesslix --display-name "Python (
 ```
 jupyter-lab
 ```
+
+## Search in the Book
+
+grep -R "flxVecPara" **/*
+
 
 
