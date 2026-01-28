@@ -23,28 +23,12 @@ However, only a fraction of the available features is currently exposed/document
 For a documentation of *Fesslix-Legacy*, please have a look at the [documentation of Fesslix-Legacy](http://download.fesslix.org/Fesslix_User_Guide_Legacy.pdf) and the [website of Fesslix-Legacy](http://legacy.fesslix.org).
 
 Important features of *Fesslix-Legacy* that are currently not exposed in the Python module of Fesslix are:
-- Perform non-intrusive reliability analysis or Bayesian updating either
-  - by expressing problems directly in Fesslix
-  - by means of an Octave/Matlab interface
-  - by means of a Python interface
-  - by linking external applications/libraries to Fesslix
-    - through a C++ or Fortran interface
-    - through running commands on the command line
-- Flexible input language for writing Fesslix parameter files
-  - control flow statements (e.g. if, for, while)
-  - most parameters can be defined as functions
-- Extensible by means of modules
-  - examples of modules available by default:
-    - **Linear finite element analysis using truss, beam and plane stress/strain elements**
-    - Bayesian networks
-    - Working with response surfaces
-    - **Spectral Stochastic Finite Elements**
+- Perform non-intrusive reliability analysis or Bayesian updating
+- **Linear finite element analysis using truss, beam and plane stress/strain elements**
+- Bayesian networks
+- Working with response surfaces
+- **Spectral Stochastic Finite Elements**
 ```
-
-## Legacy Fesslix
-
-
-
 
 ## Table of Contents
 

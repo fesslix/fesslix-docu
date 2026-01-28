@@ -4,6 +4,16 @@ This section is intended as a cheat sheet for working on the documentation of th
 
 ## MyST
 
+### Definition Lists
+
+Term 1
+: Definition
+
+Term 2
+: Definition
+
+
+
 ### Admonitions
 
 ```{note}

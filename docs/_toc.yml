@@ -39,6 +39,7 @@ parts:
   - file: advanced_FlxFunction
   - file: advanced_FlxCode
   - file: advanced_vectors
+  - file: physical_analysis
 - caption: Configuration
   chapters:
   - file: config_logging

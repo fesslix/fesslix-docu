@@ -16,7 +16,7 @@ source ~/.venv-fesslix/bin/activate
 
 Install required Python dependencies (Sphinx etc.):
 ```
-pip install -r docs/requirements.txt
+pip install -r requirements.txt
 ```
 
 Build the Spyhinx config-file:
@@ -51,9 +51,9 @@ jupyter-book clean docs/
 ```
 
 
-## Working on the book
+# Working on the book (with JupyterLab)
 
-### initially: setting up JupyterLab
+## initially: setting up JupyterLab
 
 Also make sure the required packages are installed (sytem-wide):
 ```
@@ -65,7 +65,7 @@ Once Jupyter is installed, register your environment as a kernel:
 python -m ipykernel install --user --name=.venv-fesslix --display-name "Python (.venv-fesslix)"
 ```
 
-### Start JupyterLab
+## Start JupyterLab
 ```
 jupyter-lab
 ```
